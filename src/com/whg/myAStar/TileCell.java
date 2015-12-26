@@ -43,7 +43,7 @@ public class TileCell {
 			|| type == TileCellType.forest
 			|| type == TileCellType.shoal
 			|| type == TileCellType.commonResource
-			|| type == TileCellType.centreResource
+			|| type == TileCellType.centerResource
 			|| type == TileCellType.camp;
 	}
 	

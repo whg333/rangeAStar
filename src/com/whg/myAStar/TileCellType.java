@@ -20,7 +20,7 @@ public enum TileCellType {
 	hills(22, Double.MAX_VALUE, new Color(255, 128, 128), "群山"),
 	rivers(33, Double.MAX_VALUE, new Color(0, 204, 255), "浅水"),
 	commonResource(18, 1, new Color(153, 51, 102), "普通"),
-	centreResource(1, 1, Color.BLACK, "中央");
+	centerResource(1, 1, Color.BLACK, "中央");
 	
 	private int index;
 	private double cost;

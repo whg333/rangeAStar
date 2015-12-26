@@ -187,7 +187,7 @@ public class GamePanel extends JPanel implements MouseInputListener, KeyListener
 		if (!cell.isShow() || cell.getG() < 0) {
 			return;
 		}
-		if(cell.isType(TileCellType.centreResource)){
+		if(cell.isType(TileCellType.centerResource)){
 			g2d.setColor(Color.WHITE);
 		}
 		g2d.drawString("" + cell.getG(), cell.getX() + TileCell.HEIGHT / 2 - 10, cell.getY() + TileCell.WIDTH / 2);
