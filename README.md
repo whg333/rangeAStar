@@ -4,7 +4,7 @@ AStar Path Finder in Range(eg. 10 step)
 ## Example
 Run **MainView.java**
 
-![rangeAstar](./images/rangeAstar2.png)
+![pic](./images/pic.png)
 
 ### Cell Type And Cost（单元格颜色类型以及寻路代价）
 TileCellType(int index, double cost, Color color, String desc)
